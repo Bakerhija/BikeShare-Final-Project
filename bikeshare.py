@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
+
 def check_data_entry(prompt, valid_entries): 
     
     """
@@ -32,6 +33,7 @@ def check_data_entry(prompt, valid_entries):
     except:
         print('There seems to be an issue with your input.')
               
+
               
 def get_filters():
 	
@@ -66,7 +68,9 @@ def get_filters():
     return city, month, day
 
 
+
 def load_data(city, month, day):
+
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -77,6 +81,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
+
     # Load data file into a DataFrame
     file_name = CITY_DATA[city]
     df = pd.read_csv(file_name)
@@ -99,6 +104,7 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
         
     return df
+
 
 
 def time_stats(df):
@@ -126,6 +132,7 @@ def time_stats(df):
     print('-'*40)
 
 
+
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -149,6 +156,7 @@ def station_stats(df):
     print('-'*40)
 
 
+
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
@@ -165,6 +173,7 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
 
 
 def user_stats(df):
@@ -199,6 +208,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+
     
     # Function for displays individual trip data to the user.
 def display_data(df):
@@ -209,6 +219,7 @@ def display_data(df):
         start_loc += 5
         view_data = input("\nDo you wish to continue? Enter yes or no:\n>> ").lower()
     
+
 
 def main():
     while True:
@@ -228,3 +239,7 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
+
+
+     # Prepare by: Baker Abualhija 
