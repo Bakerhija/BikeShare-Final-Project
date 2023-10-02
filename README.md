@@ -14,9 +14,9 @@ This project is part of the Udacity Data Analyst Degree program and involves the
 
 To complete this project, the following software and tools are required:
 
-- Language ([Python](https://www.python.org/ "Python"))
-- A text editor ([Sublime](https://www.sublimetext.com/3 "Sublime"))
-- A terminal application ([git](https://git-scm.com/downloads "git")).
+* Language ([Python](https://www.python.org/ "Python"))
+* A text editor ([Sublime](https://www.sublimetext.com/3 "Sublime"))
+* A terminal application ([git](https://git-scm.com/downloads "git")).
 
 
 ## Datasets
