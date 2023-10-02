@@ -1,17 +1,33 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+(Oct 02, 2023)
 
-### Date created
-Include the date you created this project and README file.
+# Project Title: Explore US Bikeshare Data
 
-### Project Title
-Replace the Project Title
 
-### Description
-Describe what your project is about and what it does
+## Project Description
 
-### Files used
-Include the files used
+This project is part of the Udacity Data Analyst Degree program and involves the exploration of bike share data from three major U.S. cities: Chicago, New York City, and Washington. Using Python, I will analyze the data, compute descriptive statistics, and create an interactive terminal experience for users to access these statistics.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Software and Tools
 
+To complete this project, the following software and tools are required:
+
+- Python
+- A text editor (Sublime)
+- A terminal application (Git)
+
+
+## Datasets
+
+The project utilizes datasets provided by Motivate, a U.S. bike share system provider. These datasets contain randomly selected data for the first six months of 2017 for all three cities. The core columns in all three datasets include:
+
+- Start Time
+- End Time
+- Trip Duration
+- Start Station
+- End Station
+- User Type
+
+Additionally, the Chicago and New York City datasets include the following two columns:
+
+- Gender
+- Birth Year
