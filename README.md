@@ -1,19 +1,22 @@
 (Oct 02, 2023)
 
-# Project Title: Explore US Bikeshare Data
+## Project Title: 
+
+#**Explore US Bikeshare Data**
 
 
 ## Project Description
 
 This project is part of the Udacity Data Analyst Degree program and involves the exploration of bike share data from three major U.S. cities: Chicago, New York City, and Washington. Using Python, I will analyze the data, compute descriptive statistics, and create an interactive terminal experience for users to access these statistics.
 
+
 ## Software and Tools
 
 To complete this project, the following software and tools are required:
 
-- Python
-- A text editor (Sublime)
-- A terminal application (Git)
+- Language ([Python](https://www.python.org/ "Python")
+- A text editor ([Sublime](https://www.sublimetext.com/3 "Sublime")
+- A terminal application ([git](https://git-scm.com/downloads "git").
 
 
 ## Datasets
